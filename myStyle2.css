@@ -85,7 +85,7 @@ body, html {
 
 .footer {
   padding: 20px;
-  position: fixed;
+  position: flex;
   left: 0;
   bottom: 0;
   width: 100%;
