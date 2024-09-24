@@ -1,132 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="myStyle2.css">
-    <title>My Home Town</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="myStyle2.css">
+  <title>Home Town</title>
 </head>
+
 <body>
-   <header>
+
+  <header>
     <nav class="navbar">
-          <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="https://en.wikipedia.org/wiki/Tehran" target="_blank">About</a></li>
-              <li><a href="https://www.tripadvisor.co.uk/Attractions-g293999-Activities-Tehran_Tehran_Province.html" target="_blank">Attractions</a></li>
-              <li><a href="index2.html">Gallery</a></li>
-              <li><a href="https://www.tappersia.com/local-persian-food/" target="_blank">Foods</a></li>
-         </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tehran" target="_blank">About</a></li>
+        <li><a href="https://www.tripadvisor.co.uk/Attractions-g293999-Activities-Tehran_Tehran_Province.html" target="_blank">Attractions</a></li>
+        <li><a href="index2.html">Gallery</a></li>
+        <li><a href="https://www.tappersia.com/local-persian-food/" target="_blank">Foods</a></li>
+      </ul>
     </nav>
-   </header>
+  </header>
 
-   <main>
-    <div class="row"> 
-        <div class="column">
-            <div class="image-container">
-                <img src="tehran-images/Tehran/Azadi/10e40b3fb3ed531b8fe077ceb0333c9a.jpg" style="width:100%">
-                <div class="image-text">
-                  <h1>Azadi Tower</h1>
-                  <p>Formerly known as Shahyad Square, is a mainly green city square in Tehran.</p>
-                </div>
-              </div>
-             
-              <div class="image-container">
-              <img src="tehran-images/Tehran/Darake/01.jpg" style="width:100%">
-                <div class="image-text">
-                  <h1>Darake</h1>
-                  <p>The area is popular with tourists as a hiking and mountain climbing destination.</p>
-                </div>
-              </div>
+  <main class="slideshow-container">
 
-              <div class="image-container">
-                <img src="tehran-images/Tehran/Emarat/154237275_1805619532953083_5907446847830527375_n.jpg" style="width:100%">
-                <div class="image-text">
-                  <h1>Masoudiye Mansion</h1>
-                  <p>The Masoudieh Mansion is a historical mansion in Tehran, Iran. It was built as a residence for the Qajar prince Mass'oud Mirza Zell-e Soltan in 1878</p>
-                </div>
-              </div> 
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="tehran-images/Tehran/Slideshow/slideShow-01.png" style="width:100%">
+      <div class="text">Azadi Tower</div>
+    </div>
 
-              <div class="image-container">
-                <img src="tehran-images/Tehran/tochal/tochal-complex-feature-image.jpg" style="width:100%">
-                <div class="image-text">
-                  <h1>Tochal</h1>
-                  <p>Tochal, is a mountain and ski resort located on the Alborz mountain range</p>
-                </div>
-              </div>
-          <img src="tehran-images/Tehran/kuche-tamadon/11-Copy.jpg" style="width:100%">
-          <img src="tehran-images/Tehran/Azadi/125869236_1723290421185995_6004040030996944428_n.jpg" style="width:100%">
-          <img src="tehran-images/Tehran/Milad/1691147159_banner.jpg" style="width:100%">
-          <img src="tehran-images/Tehran/kuche-tamadon/424594.jpeg" style="width:100%">
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="tehran-images/Tehran/Slideshow/slideShow-02.png" style="width:100%">
+      <div class="text">Kuche Tamadon</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="tehran-images/Tehran/Slideshow/slideShow-03.png" style="width:100%">
+      <div class="text">Masoudiyeh</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+    <div class="row">
+      <div class="column">
+        <div class="image-container">
+          <img src="tehran-images/Tehran/Azadi/10e40b3fb3ed531b8fe077ceb0333c9a.jpg" style="width:100%">
+          <div class="image-text">
+            <h1>Azadi Tower</h1>
+            <p>Formerly known as Shahyad Square, is a mainly green city square in Tehran.</p>
+          </div>
         </div>
-        <div class="column">
 
-            <div class="image-container">
-              <img src="tehran-images/Tehran/food/Gheymeh+Bademjan-2.jpeg" style="width:100%">
-                <div class="image-text">
-                  <h1>Gheymeh stew</h1>
-                  <p>Gheymeh is an Iranian stew consisting of diced mutton, tomatoes, split peas, onion, and dried lime, garnished with golden, thinly sliced crispy potatoes</p>
-                </div>
-              </div>
-          
-          <img src="tehran-images/Tehran/Emarat/344797433_1170916113589384_6876324860336671676_n.jpg" style="width:100%">
-          <img src="tehran-images/Tehran/Azadi/173963738_3837362163028154_1349972068430631208_n.jpg" style="width:100%">
-          <img src="tehran-images/Tehran/Milad/licensed-image.jpeg" style="width:100%">
-          <img src="tehran-images/Tehran/tochal/17696_33291--پیست-اسکی-توچال.png" style="width:100%">
-          <img src="tehran-images/Tehran/pole-tabiat/QbqdhtITOOaY.jpg" style="width:100%">
-          <img src="tehran-images/Tehran/Milad/milad.jpg" style="width: 100%;">
-        </div>  
-        <div class="column">
-
-            <div class="image-container">
-                <img src="tehran-images/Tehran/food/Jujeh-Kabab-4-1024x576.jpg" style="width:100%">
-                  <div class="image-text">
-                    <h1>Jujeh Kabab</h1>
-                    <p>Jujeh Kabab, is the Persian version of the chicken kabob and one of Iran's most delicious and popular dishes.</p>
-                  </div>
-                </div> 
-          
-          <img src="tehran-images/Tehran/Milad/milad.jpg" style="width:100%">
-          <img src="tehran-images/Tehran/pole-tabiat/tabiat-bridge.jpg" style="width:100%">
-          <img src="tehran-images/Tehran/Emarat/345040626_502157498669460_8206011895478785793_n.jpg" style="width:100%">
-
-          <div class="image-container">
-            <img src="tehran-images/Tehran/food/Shole+Zard+recipe-2.jpg" style="width:100%">
-              <div class="image-text">
-                <h1>Sholeh Zard</h1>
-                <p>Sholeh Zard is a delicious old fashioned dessert that is very delicate and light in texture, mild in sweetness and it gets its golden color from saffron.</p>
-              </div>
-            </div>
-          
-          <img src="tehran-images/Tehran/tochal/816.webp" style="width:100%">
-          <img src="tehran-images/Tehran/Milad/milad.jpg" style="width:100%">
+        <div class="image-container">
+          <img src="tehran-images/Tehran/Darake/01.jpg" style="width:100%">
+          <div class="image-text">
+            <h1>Darake</h1>
+            <p>The area is popular with tourists as a hiking and mountain climbing destination.</p>
+          </div>
         </div>
-        <div class="column">
 
-            <div class="image-container">
-                <img src="tehran-images/Tehran/food/Kabob-Koobideh-1.jpg" style="width:100%">
-                  <div class="image-text">
-                    <h1>Kubideh Kabab</h1>
-                    <p>Kabab koobideh or Kobide is an Iranian type of kofta kabab made from ground lamb or beef,</p>
-                  </div>
-                </div> 
-          <img src="tehran-images/Tehran/Darake/05.jpg" style="width:100%">
-          <img src="tehran-images/Tehran/Emarat/untitled folder/161070585_1818935511621485_4961854361808612394_n.jpg" style="width:100%">
+        <div class="image-container">
+          <img src="tehran-images/Tehran/Emarat/154237275_1805619532953083_5907446847830527375_n.jpg" style="width:100%">
+          <div class="image-text">
+            <h1>Masoudiye Mansion</h1>
+            <p>The Masoudieh Mansion is a historical mansion in Tehran, Iran. It was built as a residence for the Qajar prince Mass'oud Mirza Zell-e Soltan in 1878</p>
+          </div>
+        </div>
+
+        <div class="image-container">
           <img src="tehran-images/Tehran/tochal/tochal-complex-feature-image.jpg" style="width:100%">
-          
-          <img src="tehran-images/Tehran/Darake/05.jpg" style="width:100%">
-          <img src="tehran-images/Tehran/Emarat/untitled folder/178781080_1852061941642175_6514772423568332325_n.jpg" style="width:100%">
+          <div class="image-text">
+            <h1>Tochal</h1>
+            <p>Tochal, is a mountain and ski resort located on the Alborz mountain range</p>
+          </div>
         </div>
+        <img src="tehran-images/Tehran/kuche-tamadon/11-Copy.jpg" style="width:100%">
+        <img src="tehran-images/Tehran/Azadi/125869236_1723290421185995_6004040030996944428_n.jpg" style="width:100%">
+        <img src="tehran-images/Tehran/Milad/1691147159_banner.jpg" style="width:100%">
+        <img src="tehran-images/Tehran/kuche-tamadon/424594.jpeg" style="width:100%">
       </div>
-   </main>
-      <footer>
-        <div class="footer">
-          <p>Created by Amir</p>
-          <p>Mr.amir.mti@gmail.com</p>
+      <div class="column">
+
+        <div class="image-container">
+          <img src="tehran-images/Tehran/food/Gheymeh+Bademjan-2.jpeg" style="width:100%">
+          <div class="image-text">
+            <h1>Gheymeh stew</h1>
+            <p>Gheymeh is an Iranian stew consisting of diced mutton, tomatoes, split peas, onion, and dried lime, garnished with golden, thinly sliced crispy potatoes</p>
+          </div>
         </div>
-    </footer>
+
+        <img src="tehran-images/Tehran/Emarat/344797433_1170916113589384_6876324860336671676_n.jpg" style="width:100%">
+        <img src="tehran-images/Tehran/Azadi/173963738_3837362163028154_1349972068430631208_n.jpg" style="width:100%">
+        <img src="tehran-images/Tehran/Milad/licensed-image.jpeg" style="width:100%">
+        <img src="tehran-images/Tehran/tochal/17696_33291--پیست-اسکی-توچال.png" style="width:100%">
+        <img src="tehran-images/Tehran/pole-tabiat/QbqdhtITOOaY.jpg" style="width:100%">
+        <img src="tehran-images/Tehran/Milad/milad.jpg" style="width: 100%;">
+      </div>
+      <div class="column">
+
+        <div class="image-container">
+          <img src="tehran-images/Tehran/food/Jujeh-Kabab-4-1024x576.jpg" style="width:100%">
+          <div class="image-text">
+            <h1>Jujeh Kabab</h1>
+            <p>Jujeh Kabab, is the Persian version of the chicken kabob and one of Iran's most delicious and popular dishes.</p>
+          </div>
+        </div>
+
+        <img src="tehran-images/Tehran/Milad/milad.jpg" style="width:100%">
+        <img src="tehran-images/Tehran/pole-tabiat/tabiat-bridge.jpg" style="width:100%">
+        <img src="tehran-images/Tehran/Emarat/345040626_502157498669460_8206011895478785793_n.jpg" style="width:100%">
+        <img src="tehran-images/Tehran/Emarat/untitled folder/123.jpg" alt="" style="width: 100%;">
+
+        <div class="image-container">
+          <img src="tehran-images/Tehran/food/Shole+Zard+recipe-2.jpg" style="width:100%">
+          <div class="image-text">
+            <h1>Sholeh Zard</h1>
+            <p>Sholeh Zard is a delicious old fashioned dessert that is very delicate and light in texture, mild in sweetness and it gets its golden color from saffron.</p>
+          </div>
+        </div>
+
+        <img src="tehran-images/Tehran/tochal/816.webp" style="width:100%">
+        <img src="tehran-images/Tehran/Milad/milad.jpg" style="width:100%">
+      </div>
+      <div class="column">
+
+        <div class="image-container">
+          <img src="tehran-images/Tehran/food/Kabob-Koobideh-1.jpg" style="width:100%">
+          <div class="image-text">
+            <h1>Kubideh Kabab</h1>
+            <p>Kabab koobideh or Kobide is an Iranian type of kofta kabab made from ground lamb or beef,</p>
+          </div>
+        </div>
+        <img src="tehran-images/Tehran/Darake/05.jpg" style="width:100%">
+        <img src="tehran-images/Tehran/Emarat/untitled folder/161070585_1818935511621485_4961854361808612394_n.jpg" style="width:100%">
+        <img src="tehran-images/Tehran/tochal/tochal-complex-feature-image.jpg" style="width:100%">
+
+        <img src="tehran-images/Tehran/Darake/05.jpg" style="width:100%">
+        <img src="tehran-images/Tehran/Emarat/untitled folder/178781080_1852061941642175_6514772423568332325_n.jpg" style="width:100%">
+      </div>
+    </div>
 
 
-     
-    
+  </main>
+
+  <footer>
+    <div class="footer">
+      <p>Created by Amir</p>
+      <p>Mr.amir.mti@gmail.com</p>
+    </div>
+  </footer>
+
+
+  <script src="my-javaScript.js"></script>
+
 </body>
+
 </html>
